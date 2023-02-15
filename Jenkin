@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('test'){
+        stage('develop'){
             steps{
                 echo 'build stage in progress'
                 sleep 2
