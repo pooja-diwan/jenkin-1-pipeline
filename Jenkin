@@ -7,32 +7,6 @@ pipeline {
                     sleep 2
                     echo "done"
                 }
-            }
-            stage ('test') {
-                steps {
-                    echo "testing started"
-                    sleep 2
-                    echo "done"
-                }
-            }
-            stage ('QA') {
-                steps {
-                    echo "QA started"
-                    sleep 2
-                    echo "done"
-                }
-            } 
-            stage ('deploy') {
-                steps {
-                    echo "deploy started"
-                    sleep 2
-                    echo "done"
-                }
-            }
-            stage ('monitor') {
-                steps {
-                    echo "monitor started"
-                }
-            }
+           } 
         }
 }
